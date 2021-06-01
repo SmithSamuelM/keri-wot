@@ -3,11 +3,11 @@
 
 ## Licenses
 
-All software and documentation in this repository is *Copyright 2021 KERI Contributors*.
-All sofware and documentation is *Licensed under the Apache License, Version 2.0 (the "License")* [here](LICENSE); you may not use the software or documentation in this repository except in compliance with the License.
-You may obtain a copy of the License at [Apache2](http://www.apache.org/licenses/LICENSE-2.0) 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS,
-Use of copyrighted material is subject to the *Creative Commons Attribution 4.0 International License* [CC By 4.0](License_CCBy4.0.txt)
+All software and documentation in this repository is *Copyright 2021 KERI Contributors*. 
+All sofware and documentation is *Licensed under the Apache License, Version 2.0 (the "License")* [here](LICENSE); you may not use the software or documentation in this repository except in compliance with the License. 
+You may obtain a copy of the License at [Apache2](http://www.apache.org/licenses/LICENSE-2.0)  
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS. 
+Use of copyrighted material is subject to the *Creative Commons Attribution 4.0 International License* [CC By 4.0](License_CCBy4.0.txt) 
 
 
 
