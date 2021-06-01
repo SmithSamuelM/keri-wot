@@ -1,4 +1,14 @@
-#  Trust over IP - Documentation and Specification Template
+# KERI IETF Draft Specification
+
+
+
+
+
+
+
+
+
+##  Documentation and Specification Template
 This repo is a [GitHub Repo Template][1] for creating GitHub repositories within the ToIP GitHub Organization. Newly generated repos will contain all the necessary code for using MkDocs for the development of [ToIP Deliverables][2].
 
 The **ToIP MkDocs Material Theme** a ready-to-use setup for a ToIP branded version of [MkDocs][3], a static site generator geared towards (technical) project documentation and specification development. The theme is a customized version of [Material for MkDocs][4].
