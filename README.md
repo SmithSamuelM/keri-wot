@@ -1,50 +1,66 @@
 # KERI IETF Draft Specification
 
 
+
 ## Licenses
 
-All software and documentation in this repository is *Copyright 2021 KERI Contributors* and is
- *Licensed under the Apache License, Version 2.0 (the "License")* [here](LICENSE); you may not use the software or documentation in this repository except in compliance with the License. 
-You may obtain a copy of the License at [Apache2](http://www.apache.org/licenses/LICENSE-2.0).
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS. 
-Use of Copyrighted Specification Documentation in this repository is also subject to the *Creative Commons Attribution 4.0 International License* [CC By 4.0](License_CCBy4.0.txt).
+The legal structure of this repository with respect to the licening of its
+associated contributions follow GitHub's Open Source Guide reccomendations for
+open source standards and code. These may be found [here](https://opensource.guide/legal/)
 
+All software and documentation in this repository is *Copyright 2021 KERI Contributors* and is
+ *Licensed under the Apache License, Version 2.0 (the "License")* [here](LICENSE);
+ you may not use the software or documentation in this repository except in compliance with the License.
+You may obtain a copy of the License at [Apache2](http://www.apache.org/licenses/LICENSE-2.0).
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS.
+
+Contributers of contributions to this repository as defined in the
+[Apache2](http://www.apache.org/licenses/LICENSE-2.0) license are bound by the
+Developer Ceritificate of Origin v1.1 (DCO 1.1) which may be found
+[here](https://developercertificate.org)
+
+As a GitHub repository, all contributions to this repository are also bound by
+the GitHub inbound=outbound policy. This may be found under Section 6
+[here](https://docs.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license)
 
 
 ##  Documentation and Specification Template
-This repo is a [GitHub Repo Template][1] for creating GitHub repositories within the ToIP GitHub Organization. Newly generated repos will contain all the necessary code for using MkDocs for the development of [ToIP Deliverables][2].
+This repo is a [GitHub Repo Template][1] for creating GitHub repositories.
+Newly generated repos will contain all the necessary code for using MkDocs.
 
-The **ToIP MkDocs Material Theme** a ready-to-use setup for a ToIP branded version of [MkDocs][3], a static site generator geared towards (technical) project documentation and specification development. The theme is a customized version of [Material for MkDocs][4].
 
 ## Purpose
-This repo has been developed to address the [requirements](./REQUIREMENTS.md) of [ToIP Foundation][5] contributors with respect to the [authoring process][6] for [ToIP Deliverables][2].
 
-## Contributor's Guide
-Once the new repo instance has been configured, Documentation and Specification contributors should familiarize themselves with the [Contributor's Guide](https://github.com/trustoverip/mkdocs-material/blob/main/DEV_README.md).
+
 
 ## Usage
-The following instructions pertain to the initial configuration of a new repository instance that has been primed using [trustoverip/mkdocs-material GitHub Repo Template][12].
+
 
 ### Prime and clone a new repository
 1. Generate a new repository from this template repository (see [GitHub docs][7]).
 2. Clone the new repository (see [GitHub docs][8]).
 
 ### Pick a theme style
-This repo supports the use of a *Specification* styled theme when the [ToIP Deliverable Type Indicator][9] is `TSS`. In all other cases, a *General Documentation* styled theme is provided.
+This repo supports the use of a *Specification* styled theme. In all other cases,
+a *General Documentation* styled theme is provided.
 
-1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][10], [Atom][11]).
+1. Open the repository using your favorite IDE .
 2. Apply your style selection
 
 | Style | Configuration Action | View Demo |
 | --- | --- | --- |
-| _General Documentation_ | Move the `mkdocs.spec.yml` file, which is located at the root of the repo, to the `archive` folder. | [ToIP MkDocs Theme for Documentation](https://trustoverip.github.io/deliverables/)|
-| _Specification_ | Move the `mkdocs.yml` file to the `archive` folder, and rename `mkdocs.spec.yml` to `mkdocs.yml`. | [ToIP MkDocs Theme for Specs](https://squidfunk.github.io/toip-demo-spec/)|
+| _General Documentation_ | Move the `mkdocs.spec.yml` file, which is located
+at the root of the repo, to the `archive` folder.
+| _Specification_ | Move the `mkdocs.yml` file to the `archive` folder, and
+rename `mkdocs.spec.yml` to `mkdocs.yml`.
 
 ### Configure MkDocs
 
-[MkDocs][3] uses a [YAML file][13] to configure the operational properties for the document generator.
+[MkDocs][3] uses a [YAML file][13] to configure the operational properties for
+the document generator.
 
-1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][10], [Atom][11]).
+1. Open the repository using your favorite IDE .
 2. Edit the `mkdocs.yml` file and find the sections depicted below:
 
     ```
@@ -123,18 +139,3 @@ This repo supports the use of a *Specification* styled theme when the [ToIP Deli
     2. Refer to the _Contribution Options_ of the [ToIP Deliverables Portal][14].
 
 
-[1]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository
-[2]: https://github.com/trustoverip/deliverables/blob/master/_process/work_products.md
-[3]: https://www.mkdocs.org/
-[4]: https://squidfunk.github.io/mkdocs-material/
-[5]: https://trustoverip.org
-[6]: https://trustoverip.github.io/deliverables/process/process_concepts/
-[7]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
-[8]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
-[9]: https://trustoverip.github.io/deliverables/process/work_product_mgmt/#type-indicators
-[10]: https://code.visualstudio.com/
-[11]: https://atom.io
-[12]: https://github.com/trustoverip/mkdocs-material
-[13]: https://en.wikipedia.org/wiki/YAML#:~:text=yaml.org,is%20being%20stored%20or%20transmitted.
-[14]: https://trustoverip.github.io/deliverables/
-[15]: https://github.com/trustoverip/deliverables/tree/master/templates
